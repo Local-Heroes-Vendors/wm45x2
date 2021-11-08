@@ -1,0 +1,28 @@
+<!-- NAVBAR -->
+<div class="app-navbar app-navbar-transparent fixed fixed-tlr">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="inner-container" data-children-count="1">
+                    <div class="navbar-brand d-none d-md-block">
+                        <a href="{{ site.url }}#" class="navbar-logo">
+                            <img src="{{ site.image_url }}/assets/logo-transparent.png?width=260" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="app-navbar-left back-link d-block d-md-none">
+                        <a href="#" class="ft-light fw-medium ft-sm" data-children-count="0">
+                            <i class="fa fa-chevron-left"></i>
+                            <span>Brood en gebak</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- TODO: Navigate within index.html to #over-ons -->
+<script type="text/javascript">
+    var eventNavigate = "Navigate within vendor.html";
+    mixpanel.track_links("#navbar_list a", eventNavigate);
+</script>
