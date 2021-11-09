@@ -17,3 +17,5 @@ jekyll-sitemap: https://github.com/jekyll/jekyll-sitemap
 jekyll-feed: https://github.com/jekyll/jekyll-feed
 jekyll-seo-tag: https://github.com/jekyll/jekyll-seo-tag
 jekyll-redirect-from: https://github.com/jekyll/jekyll-redirect-from
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3c8b6060-5582-4d5d-9c61-08ac8903a44b/deploy-status)](https://app.netlify.com/sites/dazzling-meninsky-9367ef/deploys)
