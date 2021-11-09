@@ -1,12 +1,6 @@
-title: Local Heroes - DEVELOPMENT
+title: Lex Groente - DEVELOPMENT
 email: mick@localheroesonline.com
-description: >- # this means to ignore newlines until "baseurl:"
-  DEVELOPMENT Local Heroes is het e-commerce platform waarmee je eenvoudig en altijd
-  via de app het aanbod van lokale ondernemers kan bestellen.
-  Boodschappen doen via Local Heroes is een win-win-win.
-  - Steun lokale ondernemers, versterk je buurt
-  - Verse ambachtelijke producten uit de buurt
-  - Bespaar tijd, geld én moeite
+description: DEVELOPMENT De plek om voordelige groente te kopen! Met een groot assortiment en een lage prijs staan we ook wel bekend als de 50cent kraam
 url: http://127.0.0.1:4000 # the base hostname & protocol for your site, e.g. http://example.com
 image_url: http://127.0.0.1:4000
 cloudimg: https://axajvrynho.cloudimg.io/v7/
