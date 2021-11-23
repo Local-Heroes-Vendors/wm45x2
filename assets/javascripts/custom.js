@@ -213,3 +213,36 @@ function DetectAndServe(campaign) {
   $(location).attr('href',url);
   return;
 };
+
+function changeTheme(primary, secondary, tertiary, links, bgcolor, boxcolor ) {
+  document.documentElement.style.setProperty('--primary-color', primary);
+  document.documentElement.style.setProperty('--secondary-color', secondary);
+  document.documentElement.style.setProperty('--tertiary-color', tertiary);
+  document.documentElement.style.setProperty('--links-color', links);
+  document.documentElement.style.setProperty('--bg-color', bgcolor);
+  document.documentElement.style.setProperty('--box-color', boxcolor);
+}
+
+function selectTheme() {
+  var x = document.getElementById("theme").value;
+  // document.getElementById("demo").innerHTML = "You selected: " + x;
+
+  if(x=="default"){
+      changeTheme('#035F68' , '#FFFFFF' , '#FE4933' , '#2AC497' , '#F0EDE9' , '#F9F7F6');   
+  }
+  if(x=="r_blue"){
+      changeTheme('#124CB8' , '#FFFFFF' , '#FE4933' , '#1DB5D7' , '#fff', '#DFEBFD');   
+  }
+  if(x=="b_blue"){
+      changeTheme('#456F7D' , '#FFFFFF' , '#FE4933' , '#6ED71D' , '#F7FAFB', '#fff');   
+  }
+  if(x=="o_yellow"){
+      changeTheme('#E5A832' , '#FFFFFF' , '#FE4933' , '#2AC497' , '#F9F7F6' , '#fff');   
+  }
+  if(x=="t_red"){
+      changeTheme('#9F1637' , '#FFFFFF' , '#FE4933' , '#E5A832' , '#FDF6DF' , '#FDEFC3');   
+  }
+  // else{
+  //     changeTheme('#035F68' , '#FFFFFF' , '#FE4933' , '#2AC497' , '#F0EDE9' , '#F9F7F6'); 
+  // }
+}

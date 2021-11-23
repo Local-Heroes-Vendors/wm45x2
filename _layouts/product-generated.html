@@ -17,7 +17,7 @@
 </script>
 {% endif %}
 
-<body>
+<body style="--primary-color:#{{page.primary_color}};--secondary-color: #{{ page.secondary_color }} ;--tertiary-color:#{{page.tertiary_color}};--links-color:#{{page.links_color}};--bg-color:#{{page.bg_color}};--box-color:#{{page.box_color}};">
     {% include navbar_product.html %}
     
     {{ content }}

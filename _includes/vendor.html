@@ -51,6 +51,15 @@
                         <div class="block about-vendor">
                             <div class="content">
                                 <h2 class="mb-3">Over deze lokale ondernemer</h2>
+                                <span class="float-right">
+                                    <select class="form-control input-xs selectTheme" style="height:20px; font-size:12px; padding:0" id="theme" onchange="selectTheme()">
+                                        <option value="default">Default</option>
+                                        <option value="r_blue">Royal Blue </option>
+                                        <option value="b_blue">Bismark Blue</option>
+                                        <option value="o_yellow">Ochre Yellow</option>
+                                        <option value="t_red">Tamarillo Red</option>
+                                    </select>
+                                </span>
                                 <p>{{ page.vendor_description }}<a href="#" class="d-inline-block d-sm-none">Meer tonen</a> </p>
 
                                 <!-- <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="complete"> Dicta non magnam voluptas dolore nemo voluptatem, excepturi aliquid quas incidunt exercitationem earum quis porro, eveniet optio odit accusamus iste doloremque quasi! </span><a class="more">Meer tonen...</a></p> -->
